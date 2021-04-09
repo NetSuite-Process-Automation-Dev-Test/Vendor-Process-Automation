@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="385640" started-at="2021-04-09T12:30:36Z" finished-at="2021-04-09T12:37:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="385640" started-at="2021-04-09T12:30:36Z" finished-at="2021-04-09T12:37:02Z">
+      <class name="com.qa.testcases.VendorCreation">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.testcases.VendorCreation@29ca901e]" name="setExtent" is-config="true" duration-ms="289" started-at="2021-04-09T12:30:36Z" finished-at="2021-04-09T12:30:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.VendorCreation@29ca901e]" name="setUp" is-config="true" duration-ms="14747" started-at="2021-04-09T12:30:36Z" finished-at="2021-04-09T12:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="vendor_validations()[pri:1, instance:com.qa.testcases.VendorCreation@29ca901e]" name="vendor_validations" duration-ms="267901" started-at="2021-04-09T12:30:51Z" finished-at="2021-04-09T12:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vendor_validations -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.VendorCreation@29ca901e]" name="tearDown" is-config="true" duration-ms="3" started-at="2021-04-09T12:35:19Z" finished-at="2021-04-09T12:35:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vendor_validations status=SUCCESS method=VendorCreation.vendor_validations()[pri:1, instance:com.qa.testcases.VendorCreation@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.VendorCreation@29ca901e]" name="setUp" is-config="true" duration-ms="11577" started-at="2021-04-09T12:35:19Z" finished-at="2021-04-09T12:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="update_primary_bank()[pri:2, instance:com.qa.testcases.VendorCreation@29ca901e]" name="update_primary_bank" duration-ms="41148" started-at="2021-04-09T12:35:31Z" finished-at="2021-04-09T12:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_primary_bank -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.VendorCreation@29ca901e]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-09T12:36:12Z" finished-at="2021-04-09T12:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=update_primary_bank status=SUCCESS method=VendorCreation.update_primary_bank()[pri:2, instance:com.qa.testcases.VendorCreation@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.VendorCreation@29ca901e]" name="setUp" is-config="true" duration-ms="12279" started-at="2021-04-09T12:36:12Z" finished-at="2021-04-09T12:36:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="update_primary_contact()[pri:3, instance:com.qa.testcases.VendorCreation@29ca901e]" name="update_primary_contact" duration-ms="33385" started-at="2021-04-09T12:36:24Z" finished-at="2021-04-09T12:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_primary_contact -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.VendorCreation@29ca901e]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-09T12:36:57Z" finished-at="2021-04-09T12:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=update_primary_contact status=SUCCESS method=VendorCreation.update_primary_contact()[pri:3, instance:com.qa.testcases.VendorCreation@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.testcases.VendorCreation@29ca901e]" name="endReport" is-config="true" duration-ms="4282" started-at="2021-04-09T12:36:57Z" finished-at="2021-04-09T12:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.qa.testcases.VendorCreation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
